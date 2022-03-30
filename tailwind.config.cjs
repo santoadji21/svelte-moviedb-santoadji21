@@ -7,11 +7,11 @@ module.exports = {
 				84: '23rem'
 			}
 		}
-	}, 
+	},
 	plugins: [require('daisyui')],
 	daisyui: {
 		styled: true,
-		themes: true,
+		themes: ['night'],
 		base: true,
 		utils: true,
 		logs: true,
